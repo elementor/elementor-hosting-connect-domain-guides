@@ -68,18 +68,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           toTag: "${{ github.ref }}"
 
-      - name: Create Release with gh-release
-        uses: ncipollo/release-action@v1
-        id: create_release
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ steps.version.outputs.new_version }}
-          name: "${{ steps.version.outputs.new_version }}: ${{ env.PR_TITLE }}"
-          body: |
-            By: ${{ github.actor }}
-            Changelog:
-            ${{ steps.Changelog.outputs.changelog }}
-          commit: ${{ env.LAST_SHA }}
+      - name: Create GitHub Release Using CLI
+        run: |
+          gh release create "${{ steps.version.outputs.new_version }}" \
+            --title "${{ steps.version.outputs.new_version }}: ${{ env.PR_TITLE }}" \
+            --notes "By: ${{ github.actor }}\n\nChangelog:\n${{ steps.Changelog.outputs.changelog }}" \
+            --target "${{ env.LAST_SHA }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - uses: eregon/publish-release@v1
         env:
