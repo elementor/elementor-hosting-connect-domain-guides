@@ -1,0 +1,20 @@
+name: Release Publish Workflow
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  run-on-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display release info
+        run: |
+          echo "New release published!"
+          echo "Release tag: ${{ github.event.release.tag_name }}"
+          echo "Release name: ${{ github.event.release.name }}"
+          echo "Published by: ${{ github.actor }}"
