@@ -1,8 +1,8 @@
-name: Release Publish Workflow
+name: Shahar test
 
 on:
   release:
-    types: [published]
+    types: [released]
 
 jobs:
   run-on-release:
