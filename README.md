@@ -1,1 +1,1 @@
-# Elementor Hosting COnnect domain guides
+# Elementor Hosting Connect domain guides
