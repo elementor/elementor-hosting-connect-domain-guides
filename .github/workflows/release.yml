@@ -70,6 +70,7 @@ jobs:
 
       - name: Create Release with gh-release
         uses: ncipollo/release-action@v1
+        id: create_release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.version.outputs.new_version }}
@@ -79,6 +80,9 @@ jobs:
             Changelog:
             ${{ steps.Changelog.outputs.changelog }}
           commit: ${{ env.LAST_SHA }}
-          artifacts: ${{ inputs.ARTIFACT_PATHS }}
-          # ARTIFACT_PATHS from withing the directory ARTIFACT_DIR.
-          # can be used to upload multiple files, and support wildcard use, example: "ace.js, some-file.txt, some-dir/*"  
+          
+      - uses: eregon/publish-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.create_release.outputs.id }}
