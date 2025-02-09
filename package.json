@@ -1,0 +1,32 @@
+{
+  "name": "@elementor/hosting-connect-domain-guides",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "src/**/*.json"
+  ],
+  "scripts": {
+    "test": "",
+    "lint": "prettier --check .",
+    "pretty": "prettier --write .",
+    "prepare": "husky install",
+    "validate": "node validation/validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementor/elementor-hosting-connect-domain-guides.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@elementor"
+  },
+  "author": "Elementor Team",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.1",
+    "prettier": "^3.4.2",
+    "zod": "^3.24.1"
+  },
+  "lint-staged": {
+    "*.json": "prettier --write"
+  }
+}

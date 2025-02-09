@@ -1,0 +1,15 @@
+name: Release
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  release:
+    if: github.event.pull_request.merged == true && github.base_ref == 'master' && !contains(github.event.pull_request.labels.*.name, 'skip release')
+    uses: elementor/elementor-cloud-github-actions/.github/workflows/bump-release.yaml@master
+    secrets: inherit
+    with:
+      CUSTOM_JSON_FILE: "package.json"
+      CUSTOM_FIELD: "version"
+
