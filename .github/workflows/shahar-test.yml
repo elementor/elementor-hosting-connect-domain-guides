@@ -2,7 +2,11 @@ name: Shahar test
 
 on:
   release:
-    types: [created]
+    types: [published]
+  workflow_run:
+    workflows: ["Release"]
+    types:
+      - completed
 
 jobs:
   run-on-release:
