@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://panel.dreamhost.com/",
+      "visual": {
+        "type": "image",
+        "src": "intro.webp"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Log in to your DreamHost control panel",
+        "Click 'Domains' in the left sidebar",
+        "Select 'Manage Domains'",
+        "Find your domain and click 'DNS'",
+        "Scroll to 'Custom DNS records'",
+        "Click 'Add Record Now'",
+        "Select the record type and enter the values from the table below",
+        "Click 'Add Record' to save"
+      ],
+      "visual": {
+        "type": "video",
+        "src": "https://www.youtube.com/watch?v=EXAMPLE"
+      }
+    }
+  }
+}

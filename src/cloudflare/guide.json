@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dash.cloudflare.com/",
+      "visual": {
+        "type": "image",
+        "src": "intro.webp"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Sign in to your Cloudflare account",
+        "Select your domain from the dashboard",
+        "Click on 'DNS' in the left sidebar",
+        "In the DNS Records section, click 'Add record'",
+        "Choose the record type from the dropdown",
+        "Fill in the Name and Target fields using the values from the table below",
+        "Keep 'Proxy status' as DNS only (grey cloud)",
+        "Click 'Save' to add the record"
+      ],
+      "visual": {
+        "type": "video",
+        "src": "https://www.youtube.com/watch?v=iSRz75xEd3c"
+      }
+    }
+  }
+}
