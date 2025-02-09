@@ -68,16 +68,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           toTag: "${{ github.ref }}"
 
-      - name: Create GitHub Release
-        id: create_release
-        run: |
-          gh release create "${{ steps.version.outputs.new_version }}" \
-            --title "${{ steps.version.outputs.new_version }}: ${{ github.event.pull_request.title }}" \
-            --notes "By: ${{ github.actor }}\n\nChangelog:\n${{ github.event.pull_request.body }}" \
-            --target "$(git rev-parse HEAD)"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
       - name: Create Release with gh-release
         uses: ncipollo/release-action@v1
         id: create_release
@@ -90,7 +80,7 @@ jobs:
             Changelog:
             ${{ steps.Changelog.outputs.changelog }}
           commit: ${{ env.LAST_SHA }}
-    
+          
       - uses: eregon/publish-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
