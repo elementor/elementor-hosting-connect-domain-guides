@@ -45,7 +45,6 @@ jobs:
           level: ${{ env.LEVEL }}
  
       - name: Update Custom JSON Version file
-        if: ${{ inputs.CUSTOM_JSON_FILE }}
         run: |
           CUSTOM_FILE="package.json"
           VERSION_FIELD="version"
