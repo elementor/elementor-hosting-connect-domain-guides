@@ -1,0 +1,35 @@
+{
+  "cloudflare": {
+    "name": "Cloudflare",
+    "logo": "logo.webp",
+    "autoConnect": true
+  },
+  "godaddy": {
+    "name": "GoDaddy",
+    "logo": "logo.webp"
+  },
+  "namecheap": {
+    "name": "Namecheap",
+    "logo": "namecheap.webp"
+  },
+  "ionos": {
+    "name": "IONOS",
+    "logo": "intro.webp"
+  },
+  "hostinger": {
+    "name": "Hostinger",
+    "logo": "intro.webp"
+  },
+  "bluehost": {
+    "name": "Bluehost",
+    "logo": "intro.webp"
+  },
+  "squarespace": {
+    "name": "Squarespace",
+    "logo": "intro.webp"
+  },
+  "dreamhost": {
+    "name": "DreamHost",
+    "logo": "intro.webp"
+  }
+}

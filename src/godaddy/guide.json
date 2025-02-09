@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://account.godaddy.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "intro.webp"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Sign in to your GoDaddy account",
+        "Click 'Domains' from the main menu",
+        "Find your domain and click 'DNS'",
+        "In the 'Records' section, click 'Add' to create new records",
+        "Select the record type and fill in the values from the table below",
+        "Click 'Save' after adding each record"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.webp"
+      }
+    }
+  }
+}
