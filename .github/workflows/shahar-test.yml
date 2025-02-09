@@ -2,7 +2,7 @@ name: Shahar test
 
 on:
   release:
-    types: [released]
+    types: [created]
 
 jobs:
   run-on-release:
