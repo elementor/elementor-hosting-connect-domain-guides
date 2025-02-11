@@ -10,7 +10,6 @@
     },
     "dns": {
       "instructions": [
-        "Sign in to your Hostinger hPanel",
         "Go to the 'Domains' section",
         "Find your domain and click 'Manage'",
         "Navigate to 'DNS Zone Editor'",
