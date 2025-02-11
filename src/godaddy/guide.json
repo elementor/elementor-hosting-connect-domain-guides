@@ -10,7 +10,7 @@
     },
     "dns": {
       "instructions": [
-        "Click 'Domains' from the main menu",
+        "Click 'Domains' from the main menu ",
         "Find your domain and click 'DNS'",
         "In the 'Records' section, click 'Add' to create new records",
         "Select the record type and fill in the values from the table below",
