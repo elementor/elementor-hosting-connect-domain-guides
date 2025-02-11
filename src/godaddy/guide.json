@@ -10,7 +10,6 @@
     },
     "dns": {
       "instructions": [
-        "Sign in to your GoDaddy account",
         "Click 'Domains' from the main menu",
         "Find your domain and click 'DNS'",
         "In the 'Records' section, click 'Add' to create new records",
