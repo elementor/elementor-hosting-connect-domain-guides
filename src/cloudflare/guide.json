@@ -5,7 +5,7 @@
       "dashboardUrl": "https://dash.cloudflare.com/",
       "visual": {
         "type": "image",
-        "src": "intro.webp"
+        "src": "logo.png"
       }
     },
     "dns": {
