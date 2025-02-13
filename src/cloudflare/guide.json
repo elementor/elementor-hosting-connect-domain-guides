@@ -10,7 +10,6 @@
     },
     "dns": {
       "instructions": [
-        "Sign in to your Cloudflare account",
         "Select your domain from the dashboard",
         "Click on 'DNS' in the left sidebar",
         "In the DNS Records section, click 'Add record'",
