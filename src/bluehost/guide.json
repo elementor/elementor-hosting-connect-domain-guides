@@ -10,7 +10,6 @@
     },
     "dns": {
       "instructions": [
-        "Log in to your Bluehost account",
         "Click 'Domains' in the left menu",
         "Find your domain and click 'Manage'",
         "Select the 'DNS' tab",
