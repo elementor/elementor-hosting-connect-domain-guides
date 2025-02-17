@@ -5,12 +5,11 @@
       "dashboardUrl": "https://account.squarespace.com/domains",
       "visual": {
         "type": "image",
-        "src": "intro.webp"
+        "src": "logo.png"
       }
     },
     "dns": {
       "instructions": [
-        "Sign in to your Squarespace account",
         "Click 'DNS' and then 'DNS Settings'",
         "Scroll down to 'Custom Records'",
         "Click 'Add Record'",
@@ -19,8 +18,8 @@
         "Click 'Save' to add the record"
       ],
       "visual": {
-        "type": "video",
-        "src": "https://www.youtube.com/watch?v=EXAMPLEE"
+        "type": "image",
+        "src": "dns.png"
       }
     }
   }

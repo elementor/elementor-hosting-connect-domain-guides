@@ -5,12 +5,11 @@
       "dashboardUrl": "https://hpanel.hostinger.com/domains",
       "visual": {
         "type": "image",
-        "src": "intro.webp"
+        "src": "logo.png"
       }
     },
     "dns": {
       "instructions": [
-        "Sign in to your Hostinger hPanel",
         "Go to the 'Domains' section",
         "Find your domain and click 'Manage'",
         "Navigate to 'DNS Zone Editor'",
@@ -21,8 +20,8 @@
         "Click 'Add Record' to save"
       ],
       "visual": {
-        "type": "video",
-        "src": "https://www.youtube.com/watch?v=EXAMPLE"
+        "type": "image",
+        "src": "dns.png"
       }
     }
   }

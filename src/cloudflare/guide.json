@@ -19,8 +19,8 @@
         "Click 'Save' to add the record"
       ],
       "visual": {
-        "type": "video",
-        "src": "https://www.youtube.com/watch?v=iSRz75xEd3c"
+        "type": "image",
+        "src": "dns.png"
       }
     }
   }
