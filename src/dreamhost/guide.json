@@ -5,12 +5,11 @@
       "dashboardUrl": "https://panel.dreamhost.com/",
       "visual": {
         "type": "image",
-        "src": "intro.webp"
+        "src": "logo.png"
       }
     },
     "dns": {
       "instructions": [
-        "Log in to your DreamHost control panel",
         "Click 'Domains' in the left sidebar",
         "Select 'Manage Domains'",
         "Find your domain and click 'DNS'",
@@ -20,8 +19,8 @@
         "Click 'Add Record' to save"
       ],
       "visual": {
-        "type": "video",
-        "src": "https://www.youtube.com/watch?v=EXAMPLE"
+        "type": "image",
+        "src": "dns.png"
       }
     }
   }

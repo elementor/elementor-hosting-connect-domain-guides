@@ -5,12 +5,11 @@
       "dashboardUrl": "https://my.bluehost.com/hosting/app#/domains",
       "visual": {
         "type": "image",
-        "src": "intro.webp"
+        "src": "logo.png"
       }
     },
     "dns": {
       "instructions": [
-        "Log in to your Bluehost account",
         "Click 'Domains' in the left menu",
         "Find your domain and click 'Manage'",
         "Select the 'DNS' tab",
@@ -20,8 +19,8 @@
         "Click 'Save' to add the record"
       ],
       "visual": {
-        "type": "video",
-        "src": "https://www.youtube.com/watch?v=skksXTYHeo0"
+        "type": "image",
+        "src": "dns.png"
       }
     }
   }

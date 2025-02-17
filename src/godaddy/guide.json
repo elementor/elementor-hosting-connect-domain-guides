@@ -5,7 +5,7 @@
       "dashboardUrl": "https://account.godaddy.com/domains",
       "visual": {
         "type": "image",
-        "src": "intro.webp"
+        "src": "logo.png"
       }
     },
     "dns": {
@@ -18,7 +18,7 @@
       ],
       "visual": {
         "type": "image",
-        "src": "dns.webp"
+        "src": "dns.png"
       }
     }
   }

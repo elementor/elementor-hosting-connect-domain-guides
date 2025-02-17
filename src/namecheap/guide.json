@@ -5,12 +5,11 @@
       "dashboardUrl": "https://ap.www.namecheap.com/domains/list/",
       "visual": {
         "type": "image",
-        "src": "intro.webp"
+        "src": "logo.png"
       }
     },
     "dns": {
       "instructions": [
-        "Log in to your Namecheap account",
         "Click 'Domain List' in the left sidebar",
         "Find your domain and click 'MANAGE'",
         "Select the 'Advanced DNS' tab",
@@ -18,8 +17,8 @@
         "After adding all records, click the checkmark to save each entry"
       ],
       "visual": {
-        "type": "video",
-        "src": "https://www.youtube.com/watch?v=tQ2UALMOs9w"
+        "type": "image",
+        "src": "dns.png"
       }
     }
   }
