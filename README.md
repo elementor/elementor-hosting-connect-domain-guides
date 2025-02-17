@@ -46,6 +46,7 @@ Create a new JSON file in the appropriate provider directory under `src/`. Examp
 ### 2. Guide Structure Requirements
 
 #### Required Fields
+
 - `version`: Guide version number
 - `steps`: Object containing guide sections
   - `intro`: Initial setup information
@@ -56,6 +57,7 @@ Create a new JSON file in the appropriate provider directory under `src/`. Examp
     - `visual`: Supporting image or video guide
 
 #### Visual Support Options
+
 1. **Images**
    ```json
    "visual": {
@@ -74,6 +76,7 @@ Create a new JSON file in the appropriate provider directory under `src/`. Examp
 ### 3. File Organization
 
 Place your guide in the correct location:
+
 ```
 src/
 ├── cloudflare/
@@ -89,11 +92,13 @@ src/
 ### 4. Guidelines for Great Guides
 
 1. **Clear Instructions**
+
    - Write concise, numbered steps
    - Include exact menu paths and button names
    - Specify any important settings or toggles
 
 2. **Visual Content**
+
    - Provide high-quality logo
    - Include either screenshots or video tutorials
    - Ensure visuals match current interface
@@ -117,6 +122,7 @@ src/
 Need assistance? Here's how to get help:
 
 1. **Technical Questions**
+
    - Open an issue in this repository
    - Tag it with `provider-integration`
 
