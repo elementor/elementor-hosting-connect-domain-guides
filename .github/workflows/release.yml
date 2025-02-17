@@ -17,11 +17,18 @@ jobs:
       PR_LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
 
     steps:
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.generate-token.outputs.token }}
 
       - name: Determine version bump level based on labels
         if: ${{ env.PR_TITLE != null }}
@@ -44,12 +51,6 @@ jobs:
           current_version: ${{ env.LATEST_TAG }}
           level: ${{ env.LEVEL }}
 
-      - name: Generate a token
-        id: generate-token
-        uses: actions/create-github-app-token@v1
-        with:
-          app-id: ${{ secrets.APP_ID }}
-          private-key: ${{ secrets.APP_PRIVATE_KEY }}
           
       - name: Update Custom JSON Version file
         env:
@@ -66,7 +67,7 @@ jobs:
           cat "$CUSTOM_FILE"
 
           git -c "user.name=Bot" -c "user.email=bot@cloud-gitops" commit --allow-empty -am "Bump $CUSTOM_FILE ${VERSION_FIELD} to ${NEW_VERSION}"
-          git push https://x-access-token:${{ env.GH_TOKEN }}@github.com/elementor/elementor-hosting-connect-domain-guides.git main
+          git push
           echo "LAST_SHA=`git rev-parse HEAD`" >> $GITHUB_ENV
 
       - name: Changelog
