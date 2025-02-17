@@ -66,7 +66,7 @@ jobs:
           cat "$CUSTOM_FILE"
 
           git -c "user.name=Bot" -c "user.email=bot@cloud-gitops" commit --allow-empty -am "Bump $CUSTOM_FILE ${VERSION_FIELD} to ${NEW_VERSION}"
-          git push https://x-access-token:${{ env.GH_TOKEN }}@github.com/your-user/your-repo.git main
+          git push https://x-access-token:${{ env.GH_TOKEN }}@github.com/elementor/elementor-hosting-connect-domain-guides.git main
           echo "LAST_SHA=`git rev-parse HEAD`" >> $GITHUB_ENV
 
       - name: Changelog
