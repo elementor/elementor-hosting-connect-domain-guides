@@ -136,4 +136,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ by Elementor
+Built with ❤️ by Elementor.
