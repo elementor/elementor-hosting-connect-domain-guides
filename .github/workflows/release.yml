@@ -43,8 +43,17 @@ jobs:
         with:
           current_version: ${{ env.LATEST_TAG }}
           level: ${{ env.LEVEL }}
- 
+
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          
       - name: Update Custom JSON Version file
+        env:
+           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: |
           CUSTOM_FILE="package.json"
           VERSION_FIELD="version"
@@ -57,7 +66,7 @@ jobs:
           cat "$CUSTOM_FILE"
 
           git -c "user.name=Bot" -c "user.email=bot@cloud-gitops" commit --allow-empty -am "Bump $CUSTOM_FILE ${VERSION_FIELD} to ${NEW_VERSION}"
-          git push
+          git push https://x-access-token:${{ env.GH_TOKEN }}@github.com/elementor/elementor-hosting-connect-domain-guides.git main
           echo "LAST_SHA=`git rev-parse HEAD`" >> $GITHUB_ENV
 
       - name: Changelog
