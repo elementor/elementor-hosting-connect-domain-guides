@@ -2,7 +2,7 @@
   "version": "1",
   "steps": {
     "intro": {
-      "dashboardUrl": "https://account.godaddy.com/domains",
+      "dashboardUrl": "https://dcc.godaddy.com/control/dnsmanagement",
       "visual": {
         "type": "image",
         "src": "logo.png"

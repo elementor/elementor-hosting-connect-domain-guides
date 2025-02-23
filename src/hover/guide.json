@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://www.hover.com/control_panel/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Log in to your Hover account",
+        "Click on your domain name in the domain list",
+        "Select the 'DNS' tab",
+        "Click 'Add Record'",
+        "Choose the record type from the dropdown menu",
+        "Enter the values from the table below in the corresponding fields",
+        "Click 'Save Record' to complete"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

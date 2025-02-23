@@ -1,35 +1,39 @@
 {
   "cloudflare": {
     "name": "Cloudflare",
-    "logo": "logo.webp",
+    "logo": "logo.png",
     "autoConnect": true
   },
   "godaddy": {
     "name": "GoDaddy",
-    "logo": "logo.webp"
+    "logo": "logo.png"
   },
   "namecheap": {
     "name": "Namecheap",
-    "logo": "namecheap.webp"
+    "logo": "logo.png"
   },
   "ionos": {
     "name": "IONOS",
-    "logo": "intro.webp"
+    "logo": "logo.png"
   },
   "hostinger": {
     "name": "Hostinger",
-    "logo": "intro.webp"
+    "logo": "logo.png"
   },
   "bluehost": {
     "name": "Bluehost",
-    "logo": "intro.webp"
+    "logo": "logo.pngp"
   },
   "squarespace": {
     "name": "Squarespace",
-    "logo": "intro.webp"
+    "logo": "logo.png"
   },
   "dreamhost": {
     "name": "DreamHost",
-    "logo": "intro.webp"
+    "logo": "logo.png"
+  },
+  "hover": {
+    "name": "Hover",
+    "logo": "logo.png"
   }
 }
