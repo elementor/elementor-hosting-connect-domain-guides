@@ -1,6 +1,6 @@
 {
   "name": "@elementor/hosting-connect-domain-guides",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "type": "module",
   "files": [
     "src/**/*.json"
