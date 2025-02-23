@@ -10,10 +10,9 @@
     },
     "dns": {
       "instructions": [
-        "Log in to your Hover account",
         "Click on your domain name in the domain list",
         "Select the 'DNS' tab",
-        "Click 'Add Record'",
+        "Click 'Add a Record'",
         "Choose the record type from the dropdown menu",
         "Enter the values from the table below in the corresponding fields",
         "Click 'Save Record' to complete"
