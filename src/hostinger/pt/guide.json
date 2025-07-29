@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://hpanel.hostinger.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Vá para a seção 'Domínios'",
+        "Encontre seu domínio e clique em 'Gerenciar'",
+        "Navegue até o Editor de Zona DNS",
+        "Clique em 'Adicionar registro'",
+        "Selecione o tipo de registro da lista suspensa",
+        "Preencha os campos 'Nome' e 'Aponta para' com os valores da tabela abaixo",
+        "Mantenha o valor TTL padrão de 14400",
+        "Clique em 'Adicionar registro' para salvar"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

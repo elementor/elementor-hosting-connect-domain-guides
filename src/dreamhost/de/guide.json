@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://panel.dreamhost.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Klicken Sie auf 'Domains' in der linken Seitenleiste",
+        "Wählen Sie 'Domains verwalten'",
+        "Finden Sie Ihre Domain und klicken Sie auf 'DNS'",
+        "Scrollen Sie zu 'Benutzerdefinierte DNS-Einträge'",
+        "Klicken Sie auf 'Jetzt Datensatz hinzufügen'",
+        "Wählen Sie den Datensatztyp aus und geben Sie die Werte aus der Tabelle unten ein",
+        "Klicken Sie auf 'Datensatz hinzufügen' um zu speichern"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

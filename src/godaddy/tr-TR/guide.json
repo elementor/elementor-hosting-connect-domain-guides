@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dcc.godaddy.com/control/dnsmanagement",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Ana menüden 'Alanlar'ı tıklayın",
+        "Alanınızı bulun ve 'DNS'e tıklayın",
+        "'Kayıtlar' bölümünde yeni kayıt oluşturmak için 'Ekle'ye tıklayın",
+        "Kayıt türünü seçin ve aşağıdaki tablodaki değerleri doldurun",
+        "Her kayıt ekledikten sonra 'Kaydet'e tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

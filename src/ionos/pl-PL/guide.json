@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://my.ionos.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Przejdź do sekcji 'Domeny i SSL'",
+        "Znajdź swoją domenę i kliknij ikonę koła zębatego pod 'Akcje'",
+        "Wybierz 'DNS'",
+        "Kliknij 'Dodaj rekord'",
+        "Wybierz typ rekordu i wprowadź wartości z tabeli poniżej",
+        "Kliknij 'Zapisz' aby zastosować rekord"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://my.ionos.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "'Alanlar ve SSL' bölümüne gidin",
+        "Alanınızı bulun ve 'Eylemler' altındaki dişli simgesine tıklayın",
+        "'DNS'i seçin",
+        "'Kayıt ekle'ye tıklayın",
+        "Kayıt türünü seçin ve aşağıdaki tablodaki değerleri girin",
+        "Kaydı uygulamak için 'Kaydet'e tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://panel.dreamhost.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Clique em 'Domínios' na barra lateral esquerda",
+        "Selecione 'Gerenciar domínios'",
+        "Encontre seu domínio e clique em 'DNS'",
+        "Role até 'Registros DNS personalizados'",
+        "Clique em 'Adicionar registro agora'",
+        "Selecione o tipo de registro e insira os valores da tabela abaixo",
+        "Clique em 'Adicionar registro' para salvar"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

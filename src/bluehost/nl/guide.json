@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://my.bluehost.com/hosting/app#/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Klik op 'Domeinen' in het linkermenu",
+        "Zoek je domein en klik op 'Beheren'",
+        "Selecteer het 'DNS' tabblad",
+        "Scroll naar beneden naar 'DNS Records'",
+        "Klik op 'DNS Record toevoegen'",
+        "Selecteer het recordtype en voer de waarden uit de onderstaande tabel in",
+        "Klik op 'Opslaan' om het record toe te voegen"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

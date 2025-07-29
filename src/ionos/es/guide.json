@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://my.ionos.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Ve a la sección 'Dominios y SSL'",
+        "Encuentra tu dominio y haz clic en el símbolo de engranaje bajo 'Acciones'",
+        "Selecciona 'DNS'",
+        "Haz clic en 'Agregar registro'",
+        "Selecciona el tipo de registro e ingresa los valores de la tabla de abajo",
+        "Haz clic en 'Guardar' para aplicar el registro"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

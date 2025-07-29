@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://www.hover.com/control_panel/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Alan listesindeki alanınızın adına tıklayın",
+        "'DNS' sekmesini seçin",
+        "'Kayıt ekle'ye tıklayın",
+        "Açılır menüden kayıt türünü seçin",
+        "Aşağıdaki tablodaki değerleri ilgili alanlara girin",
+        "Tamamlamak için 'Kayıt Kaydet'e tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

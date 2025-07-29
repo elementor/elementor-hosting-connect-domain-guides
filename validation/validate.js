@@ -23,19 +23,34 @@ function validateProviderSchemaInManifest(providerKey, manifest) {
 }
 
 function validateGuideSchema(guideDir) {
-  const guideFile = path.join(guideDir, "guide.json");
-  if (fs.existsSync(guideFile)) {
-    const guide = JSON.parse(fs.readFileSync(guideFile, "utf-8"));
-    try {
-      guideSchema.parse(guide);
-    } catch (e) {
-      return ["Errors in guide.json:", ...e.errors];
-    }
-  } else {
-    return ["guide.json not found"];
+  // Look for guide.json in language-specific directories
+  const languageDirs = fs
+    .readdirSync(guideDir, { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .filter((dirent) => dirent.name !== "assets") // Exclude assets directory
+    .map((dirent) => dirent.name);
+
+  if (languageDirs.length === 0) {
+    return ["No language directories found"];
   }
 
-  return [];
+  const errors = [];
+
+  for (const lang of languageDirs) {
+    const guideFile = path.join(guideDir, lang, "guide.json");
+    if (fs.existsSync(guideFile)) {
+      const guide = JSON.parse(fs.readFileSync(guideFile, "utf-8"));
+      try {
+        guideSchema.parse(guide);
+      } catch (e) {
+        errors.push(`Errors in ${lang}/guide.json:`, ...e.errors);
+      }
+    } else {
+      errors.push(`${lang}/guide.json not found`);
+    }
+  }
+
+  return errors;
 }
 
 function validateProvider(srcPath, providerKey, manifest) {

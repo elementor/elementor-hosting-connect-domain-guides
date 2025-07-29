@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://my.ionos.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Gehen Sie zum Bereich 'Domains & SSL'",
+        "Finden Sie Ihre Domain und klicken Sie auf das Zahnrad-Symbol unter 'Aktionen'",
+        "Wählen Sie 'DNS'",
+        "Klicken Sie auf 'Datensatz hinzufügen'",
+        "Wählen Sie den Datensatztyp aus und geben Sie die Werte aus der Tabelle unten ein",
+        "Klicken Sie auf 'Speichern' um den Eintrag zu übernehmen"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://panel.dreamhost.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Kliknij 'Domeny' w lewym pasku bocznym",
+        "Wybierz 'Zarządzaj domenami'",
+        "Znajdź swoją domenę i kliknij 'DNS'",
+        "Przewiń do 'Niestandardowe rekordy DNS'",
+        "Kliknij 'Dodaj rekord teraz'",
+        "Wybierz typ rekordu i wprowadź wartości z tabeli poniżej",
+        "Kliknij 'Dodaj rekord' aby zapisać"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://account.squarespace.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Clique em 'DNS' e depois em 'Configurações DNS'",
+        "Role para baixo até 'Registros personalizados'",
+        "Clique em 'Adicionar registro'",
+        "Selecione o tipo de registro no menu suspenso",
+        "Insira os valores da tabela abaixo nos campos correspondentes",
+        "Clique em 'Salvar' para adicionar o registro"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://hpanel.hostinger.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Allez à la section 'Domaines'",
+        "Trouvez votre domaine et cliquez sur 'Gérer'",
+        "Naviguez vers l'éditeur de zone DNS",
+        "Cliquez sur 'Ajouter un enregistrement'",
+        "Sélectionnez le type d'enregistrement dans la liste déroulante",
+        "Remplissez les champs 'Nom' et 'Pointe vers' en utilisant les valeurs du tableau ci-dessous",
+        "Gardez la valeur TTL par défaut de 14400",
+        "Cliquez sur 'Ajouter un enregistrement' pour sauvegarder"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

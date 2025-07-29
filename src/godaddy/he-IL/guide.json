@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dcc.godaddy.com/control/dnsmanagement",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "לחץ על 'דומיינים' מהתפריט הראשי",
+        "מצא את הדומיין שלך ולחץ על 'DNS'",
+        "בסעיף 'רשומות', לחץ על 'הוסף' ליצירת רשומות חדשות",
+        "בחר את סוג הרשומה ומלא את הערכים מהטבלה למטה",
+        "לחץ על 'שמור' לאחר הוספת כל רשומה"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://www.hover.com/control_panel/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Klik op de naam van je domein in de domeinlijst",
+        "Selecteer het 'DNS' tabblad",
+        "Klik op 'Record toevoegen'",
+        "Selecteer het recordtype uit het dropdown menu",
+        "Voer de waarden uit de onderstaande tabel in de bijbehorende velden in",
+        "Klik op 'Record opslaan' om te voltooien"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

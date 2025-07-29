@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dash.cloudflare.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Sélectionnez votre domaine depuis le tableau de bord",
+        "Cliquez sur 'DNS' dans la barre latérale gauche",
+        "Dans la section des enregistrements DNS, cliquez sur 'Ajouter un enregistrement'",
+        "Sélectionnez le type d'enregistrement dans le menu déroulant",
+        "Remplissez les champs 'Nom' et 'Cible' en utilisant les valeurs du tableau ci-dessous",
+        "Gardez le 'Statut du proxy' comme DNS uniquement (nuage gris)",
+        "Cliquez sur 'Enregistrer' pour ajouter l'enregistrement"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

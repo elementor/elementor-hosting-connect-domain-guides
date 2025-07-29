@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://account.squarespace.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "לחץ על 'DNS' ואז על 'הגדרות DNS'",
+        "גלול למטה ל'רשומות מותאמות אישית'",
+        "לחץ על 'הוסף רשומה'",
+        "בחר את סוג הרשומה מתפריט הנפתח",
+        "הזן את הערכים מהטבלה למטה בשדות המתאימים",
+        "לחץ על 'שמור' להוספת הרשומה"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

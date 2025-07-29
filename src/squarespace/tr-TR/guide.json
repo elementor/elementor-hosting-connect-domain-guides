@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://account.squarespace.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "'DNS'e ve ardından 'DNS Ayarları'na tıklayın",
+        "'Özel Kayıtlar'a aşağı kaydırın",
+        "'Kayıt ekle'ye tıklayın",
+        "Açılır menüden kayıt türünü seçin",
+        "Aşağıdaki tablodaki değerleri ilgili alanlara girin",
+        "Kayıt eklemek için 'Kaydet'e tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

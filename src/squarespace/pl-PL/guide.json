@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://account.squarespace.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Kliknij 'DNS' a następnie 'Ustawienia DNS'",
+        "Przewiń w dół do 'Niestandardowe rekordy'",
+        "Kliknij 'Dodaj rekord'",
+        "Wybierz typ rekordu z menu rozwijanego",
+        "Wprowadź wartości z tabeli poniżej w odpowiednie pola",
+        "Kliknij 'Zapisz' aby dodać rekord"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

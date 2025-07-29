@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dcc.godaddy.com/control/dnsmanagement",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Haz clic en 'Dominios' en el menú principal",
+        "Encuentra tu dominio y haz clic en 'DNS'",
+        "En la sección 'Registros', haz clic en 'Agregar' para crear nuevos registros",
+        "Selecciona el tipo de registro y completa los valores de la tabla de abajo",
+        "Haz clic en 'Guardar' después de agregar cada registro"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

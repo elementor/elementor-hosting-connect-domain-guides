@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://panel.dreamhost.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Sol kenar çubuğunda 'Alanlar'a tıklayın",
+        "'Alanları Yönet'i seçin",
+        "Alanınızı bulun ve 'DNS'e tıklayın",
+        "'Özel DNS Kayıtları'na aşağı kaydırın",
+        "'Şimdi Kayıt Ekle'ye tıklayın",
+        "Kayıt türünü seçin ve aşağıdaki tablodaki değerleri girin",
+        "Kaydetmek için 'Kayıt Ekle'ye tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}
