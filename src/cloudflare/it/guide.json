@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dash.cloudflare.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Seleziona il tuo dominio dalla dashboard",
+        "Clicca su 'DNS' nella barra laterale sinistra",
+        "Nella sezione record DNS, clicca su 'Aggiungi record'",
+        "Seleziona il tipo di record dal menu a tendina",
+        "Compila i campi 'Nome' e 'Destinazione' usando i valori dalla tabella sottostante",
+        "Mantieni lo 'Stato proxy' come Solo DNS (nuvola grigia)",
+        "Clicca su 'Salva' per aggiungere il record"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

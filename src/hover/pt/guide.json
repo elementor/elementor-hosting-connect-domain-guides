@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://www.hover.com/control_panel/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Clique no nome do seu domínio na lista de domínios",
+        "Selecione a aba 'DNS'",
+        "Clique em 'Adicionar registro'",
+        "Selecione o tipo de registro no menu suspenso",
+        "Insira os valores da tabela abaixo nos campos correspondentes",
+        "Clique em 'Salvar registro' para concluir"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

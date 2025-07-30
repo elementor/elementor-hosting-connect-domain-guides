@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://my.ionos.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Allez à la section 'Domaines et SSL'",
+        "Trouvez votre domaine et cliquez sur l'icône d'engrenage sous 'Actions'",
+        "Sélectionnez 'DNS'",
+        "Cliquez sur 'Ajouter un enregistrement'",
+        "Sélectionnez le type d'enregistrement et saisissez les valeurs du tableau ci-dessous",
+        "Cliquez sur 'Enregistrer' pour appliquer l'enregistrement"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

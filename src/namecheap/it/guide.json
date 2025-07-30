@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://ap.www.namecheap.com/domains/list/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Clicca su 'Lista domini' nella barra laterale sinistra",
+        "Trova il tuo dominio e clicca su 'GESTISCI'",
+        "Seleziona la scheda 'DNS avanzato'",
+        "Sotto 'Record host', clicca su 'AGGIUNGI NUOVO RECORD' per ogni record dalla tabella sottostante",
+        "Dopo aver aggiunto tutti i record, clicca sul segno di spunta per salvare ogni voce"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

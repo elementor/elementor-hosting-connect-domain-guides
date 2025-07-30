@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dash.cloudflare.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Wybierz swoją domenę z dashboardu",
+        "Kliknij 'DNS' w lewym pasku bocznym",
+        "W sekcji rekordów DNS kliknij 'Dodaj rekord'",
+        "Wybierz typ rekordu z menu rozwijanego",
+        "Wypełnij pola 'Nazwa' i 'Cel' wartościami z tabeli poniżej",
+        "Zachowaj 'Status proxy' jako DNS tylko (szara chmura)",
+        "Kliknij 'Zapisz' aby dodać rekord"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

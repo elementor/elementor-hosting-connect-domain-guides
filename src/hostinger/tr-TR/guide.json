@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://hpanel.hostinger.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "'Alanlar' bölümüne gidin",
+        "Alanınızı bulun ve 'Yönet'e tıklayın",
+        "DNS Bölge Düzenleyicisine gidin",
+        "'Kayıt ekle'ye tıklayın",
+        "Açılır listeden kayıt türünü seçin",
+        "'Ad' ve 'İşaret eder' alanlarını aşağıdaki tablodaki değerlerle doldurun",
+        "14400 varsayılan TTL değerini koruyun",
+        "Kaydetmek için 'Kayıt ekle'ye tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

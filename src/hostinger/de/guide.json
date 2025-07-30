@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://hpanel.hostinger.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Gehen Sie zum Bereich 'Domains'",
+        "Finden Sie Ihre Domain und klicken Sie auf 'Verwalten'",
+        "Navigieren Sie zu 'DNS-Zone-Editor'",
+        "Klicken Sie auf 'Datensatz hinzufügen'",
+        "Wählen Sie den Datensatztyp aus der Dropdown-Liste",
+        "Füllen Sie die Felder 'Name' und 'Verweist auf' mit den Werten aus der Tabelle unten aus",
+        "Behalten Sie den Standard-TTL-Wert von 14400",
+        "Klicken Sie auf 'Datensatz hinzufügen' um zu speichern"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

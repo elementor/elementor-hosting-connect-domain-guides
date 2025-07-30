@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://panel.dreamhost.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Klik op 'Domeinen' in de linkerzijbalk",
+        "Selecteer 'Domeinen beheren'",
+        "Zoek je domein en klik op 'DNS'",
+        "Scroll naar 'Aangepaste DNS records'",
+        "Klik op 'Record nu toevoegen'",
+        "Selecteer het recordtype en voer de waarden uit de onderstaande tabel in",
+        "Klik op 'Record toevoegen' om op te slaan"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

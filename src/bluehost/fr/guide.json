@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://my.bluehost.com/hosting/app#/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Cliquez sur 'Domaines' dans le menu de gauche",
+        "Trouvez votre domaine et cliquez sur 'Gérer'",
+        "Sélectionnez l'onglet 'DNS'",
+        "Faites défiler vers le bas vers 'Enregistrements DNS'",
+        "Cliquez sur 'Ajouter un enregistrement DNS'",
+        "Sélectionnez le type d'enregistrement et saisissez les valeurs du tableau ci-dessous",
+        "Cliquez sur 'Enregistrer' pour ajouter l'enregistrement"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

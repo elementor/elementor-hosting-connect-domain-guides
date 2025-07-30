@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://ap.www.namecheap.com/domains/list/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Haz clic en 'Lista de dominios' en la barra lateral izquierda",
+        "Encuentra tu dominio y haz clic en 'ADMINISTRAR'",
+        "Selecciona la pestaña 'DNS avanzado'",
+        "Bajo 'Registros de host', haz clic en 'AGREGAR NUEVO REGISTRO' para cada registro de la tabla de abajo",
+        "Después de agregar todos los registros, haz clic en la marca de verificación para guardar cada entrada"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

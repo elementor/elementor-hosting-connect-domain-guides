@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://ap.www.namecheap.com/domains/list/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Sol kenar çubuğunda 'Alan Listesi'ne tıklayın",
+        "Alanınızı bulun ve 'YÖNET'e tıklayın",
+        "'Gelişmiş DNS' sekmesini seçin",
+        "Aşağıdaki tablodaki her kayıt için 'Ana Bilgisayar Kayıtları' altında 'YENİ KAYIT EKLE'ye tıklayın",
+        "Tüm kayıtları ekledikten sonra her girişi kaydetmek için onay işaretine tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://hpanel.hostinger.com/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Przejdź do sekcji 'Domeny'",
+        "Znajdź swoją domenę i kliknij 'Zarządzaj'",
+        "Przejdź do Edytora Strefy DNS",
+        "Kliknij 'Dodaj rekord'",
+        "Wybierz typ rekordu z listy rozwijanej",
+        "Wypełnij pola 'Nazwa' i 'Wskazuje na' wartościami z tabeli poniżej",
+        "Zachowaj domyślną wartość TTL 14400",
+        "Kliknij 'Dodaj rekord' aby zapisać"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

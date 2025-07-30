@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dcc.godaddy.com/control/dnsmanagement",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Cliquez sur 'Domaines' dans le menu principal",
+        "Trouvez votre domaine et cliquez sur 'DNS'",
+        "Dans la section 'Enregistrements', cliquez sur 'Ajouter' pour créer de nouveaux enregistrements",
+        "Sélectionnez le type d'enregistrement et remplissez les valeurs du tableau ci-dessous",
+        "Cliquez sur 'Enregistrer' après avoir ajouté chaque enregistrement"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

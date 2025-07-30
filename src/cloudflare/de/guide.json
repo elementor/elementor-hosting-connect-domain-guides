@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dash.cloudflare.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Wählen Sie Ihre Domain aus dem Dashboard",
+        "Klicken Sie auf 'DNS' in der linken Seitenleiste",
+        "Im DNS-Einträge-Bereich klicken Sie auf 'Datensatz hinzufügen'",
+        "Wählen Sie den Datensatztyp aus dem Dropdown-Menü",
+        "Füllen Sie die Felder 'Name' und 'Ziel' mit den Werten aus der Tabelle unten aus",
+        "Behalten Sie 'Proxy-Status' als DNS nur (graue Wolke)",
+        "Klicken Sie auf 'Speichern' um den Eintrag hinzuzufügen"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

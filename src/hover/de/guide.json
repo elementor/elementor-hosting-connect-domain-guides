@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://www.hover.com/control_panel/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Klicken Sie auf Ihren Domainnamen in der Domain-Liste",
+        "Wählen Sie den 'DNS'-Tab",
+        "Klicken Sie auf 'Datensatz hinzufügen'",
+        "Wählen Sie den Datensatztyp aus dem Dropdown-Menü",
+        "Geben Sie die Werte aus der Tabelle unten in die entsprechenden Felder ein",
+        "Klicken Sie auf 'Datensatz speichern' um abzuschließen"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

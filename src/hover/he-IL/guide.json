@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://www.hover.com/control_panel/domains",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "לחץ על שם הדומיין שלך ברשימת הדומיינים",
+        "בחר את הלשונית 'DNS'",
+        "לחץ על 'הוסף רשומה'",
+        "בחר את סוג הרשומה מתפריט הנפתח",
+        "הזן את הערכים מהטבלה למטה בשדות המתאימים",
+        "לחץ על 'שמור רשומה' להשלמה"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

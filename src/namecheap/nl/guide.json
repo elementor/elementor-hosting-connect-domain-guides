@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://ap.www.namecheap.com/domains/list/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Klik op 'Domeinlijst' in de linkerzijbalk",
+        "Zoek je domein en klik op 'BEHEREN'",
+        "Selecteer het tabblad 'Geavanceerde DNS'",
+        "Klik onder 'Host records' op 'NIEUW RECORD TOEVOEGEN' voor elk record uit de onderstaande tabel",
+        "Klik na het toevoegen van alle records op het vinkje om elke invoer op te slaan"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dash.cloudflare.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Selecione seu domínio no painel",
+        "Clique em 'DNS' na barra lateral esquerda",
+        "Na seção de registros DNS, clique em 'Adicionar registro'",
+        "Selecione o tipo de registro no menu suspenso",
+        "Preencha os campos 'Nome' e 'Destino' com os valores da tabela abaixo",
+        "Mantenha o 'Status do proxy' como DNS apenas (nuvem cinza)",
+        "Clique em 'Salvar' para adicionar o registro"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

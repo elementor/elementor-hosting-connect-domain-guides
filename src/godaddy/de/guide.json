@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dcc.godaddy.com/control/dnsmanagement",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Klicken Sie auf 'Domains' im Hauptmenü",
+        "Finden Sie Ihre Domain und klicken Sie auf 'DNS'",
+        "Im Abschnitt 'Datensätze' klicken Sie auf 'Hinzufügen' um neue Einträge zu erstellen",
+        "Wählen Sie den Datensatztyp aus und füllen Sie die Werte aus der Tabelle unten aus",
+        "Klicken Sie auf 'Speichern' nach dem Hinzufügen jedes Eintrags"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}

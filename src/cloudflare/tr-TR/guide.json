@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "steps": {
+    "intro": {
+      "dashboardUrl": "https://dash.cloudflare.com/",
+      "visual": {
+        "type": "image",
+        "src": "logo.png"
+      }
+    },
+    "dns": {
+      "instructions": [
+        "Kontrol panelinden alanınızı seçin",
+        "Sol kenar çubuğunda 'DNS'e tıklayın",
+        "DNS kayıtları bölümünde 'Kayıt ekle'ye tıklayın",
+        "Açılır menüden kayıt türünü seçin",
+        "'Ad' ve 'Hedef' alanlarını aşağıdaki tablodaki değerlerle doldurun",
+        "'Proxy durumu'nu sadece DNS (gri bulut) olarak tutun",
+        "Kayıt eklemek için 'Kaydet'e tıklayın"
+      ],
+      "visual": {
+        "type": "image",
+        "src": "dns.png"
+      }
+    }
+  }
+}
