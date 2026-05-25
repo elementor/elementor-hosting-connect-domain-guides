@@ -13,6 +13,7 @@
         "Go to the 'Domains' section",
         "Find your domain and click 'Manage'",
         "Navigate to 'DNS Zone Editor'",
+        "Remove any existing A records for @ and www before adding new records",
         "Click 'Add Record'",
         "Select the record type from the dropdown list",
         "Fill in the 'Name' and 'Points to' fields using the values from the table below",

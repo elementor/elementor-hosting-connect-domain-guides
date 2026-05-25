@@ -12,6 +12,7 @@
       "instructions": [
         "Select your domain from the dashboard",
         "Click on 'DNS' in the left sidebar",
+        "Remove any existing A records for @ and www before adding new records",
         "In the DNS Records section, click 'Add record'",
         "Choose the record type from the dropdown",
         "Fill in the Name and Target fields using the values from the table below",
