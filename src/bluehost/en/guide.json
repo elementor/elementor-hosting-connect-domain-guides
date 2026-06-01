@@ -14,6 +14,7 @@
         "Find your domain and click 'Manage'",
         "Select the 'DNS' tab",
         "Scroll down to 'DNS Records'",
+        "Remove any conflicting A and CNAME records",
         "Click 'Add DNS Record'",
         "Choose the record type and enter the values from the table below",
         "Click 'Save' to add the record"

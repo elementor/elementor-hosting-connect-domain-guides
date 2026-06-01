@@ -12,6 +12,7 @@
       "instructions": [
         "Click 'DNS' and then 'DNS Settings'",
         "Scroll down to 'Custom Records'",
+        "Remove any conflicting A and CNAME records",
         "Click 'Add Record'",
         "Select the record type from the dropdown menu",
         "Enter the values from the table below in the corresponding fields",

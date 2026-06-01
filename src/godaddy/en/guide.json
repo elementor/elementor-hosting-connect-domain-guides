@@ -12,6 +12,7 @@
       "instructions": [
         "Click 'Domains' from the main menu ",
         "Find your domain and click 'DNS'",
+        "Remove any conflicting A and CNAME records",
         "In the 'Records' section, click 'Add' to create new records",
         "Select the record type and fill in the values from the table below",
         "Click 'Save' after adding each record"
