@@ -13,7 +13,7 @@
         "Click 'Domain List' in the left sidebar",
         "Find your domain and click 'MANAGE'",
         "Select the 'Advanced DNS' tab",
-        "Remove any existing A records for @ and www before adding new records",
+        "Remove any conflicting A and CNAME records",
         "Under 'Host Records', click 'ADD NEW RECORD' for each record from the table below",
         "After adding all records, click the check mark to save each entry"
       ],

@@ -13,7 +13,7 @@
         "Go to the 'Domains & SSL' section",
         "Find your domain and click the gear symbol under 'Actions'",
         "Select 'DNS'",
-        "Remove any existing A records for @ and www before adding new records",
+        "Remove any conflicting A and CNAME records",
         "Click 'Add Record'",
         "Select the record type and enter the values from the table below",
         "Click 'Save' to apply the record"
